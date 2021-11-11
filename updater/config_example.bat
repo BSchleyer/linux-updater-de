@@ -3,6 +3,16 @@ rem Linux Debian Autoapdater
 color 0a
 title Updating your Linux Debian Server...
 
+rem Ein ganz altes Log wird entfernt falls vorhanden
+
+if exist linux_update.old.LOG (
+    del /q linux_update.old.LOG
+    goto renamelog
+) else (
+    goto renamelog
+)
+
+:renamelog
 rem Altes Log wird falls vorhanden einmal gesichert. Es ist immer EINE ältere Version des Logs verfügbar
 
 if exist linux_update.LOG (
