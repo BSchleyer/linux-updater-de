@@ -115,7 +115,7 @@ namespace setup
                 generateFile.WriteLine(" ");
                 generateFile.WriteLine(":run");
                 generateFile.WriteLine(" ");
-                generateFile.WriteLine("call linux_debian_updater.bat " + user + " " + ip + " " + port + " " + password + " > linux_update.LOG");
+                generateFile.WriteLine("call linux_update.bat " + user + " " + ip + " " + port + " " + password + " > linux_update.LOG");
                 generateFile.WriteLine(" ");
                 generateFile.WriteLine("title Ready!");
                 generateFile.WriteLine("rem Dieses Fenster wird in 30 Sekunden automatisch geschlossen!");
