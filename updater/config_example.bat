@@ -29,7 +29,7 @@ rem root - Hier kommt der Name des jeweiligen Benutzers rein - ES MUSS SICH UM E
 rem 192.168.0.1 - Hier kommt die IP deines Servers rein
 rem 22 - Das ist der Port auf welchem der SSH-Zugriff erfolgen soll
 rem passwort12345 - Hier kommt dein Passwort rein
-call linux_debian_updater.bat root 192.168.0.1 22 passwort12345! > linux_update.LOG
+call linux_update.bat root 192.168.0.1 22 passwort12345! > linux_update.LOG
 
 title Ready!
 rem Dieses Fenster wird in 30 Sekunden automatisch geschlossen!
