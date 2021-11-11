@@ -58,3 +58,8 @@ Einmal eingerichtet musst du um das Programm zu nutzen einfach die eingerichtete
 Damit man Fehler besser nachvollziehen kann und sogar vielleicht reparieren erstellt das Programm Logdateien welche im Verzeichnis **updater** gespeichert werden.
 Um Speicherplatz zu sparen werden nur die Logdateien der letzten zwei Sitzungen gespeichert.
 **Diese Datei werden nirgendwo übertragen und bleiben nur auf deinem Rechner!**
+
+# Wichtig
+
+**Du musst bereits eine Verbindung mit dem Server über Putty hergestellt haben um diesen Programm nutzen zu können!**
+Ansonsten hat das Programm Probleme damit den Authentifizierungsschlüssel des Servers zu akzeptieren. Eine automatische Annahme des Schlüssels wurde unter anderem aus Sicherheitsgründen nicht eingebaut damit du als Nutzer sicherstellen kannst, dass du dich mit deinem Server verbindest und nicht mit einem fremden
