@@ -3,6 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <Company>JVL-Studios</Company>
+    <Product>linux-updater-de</Product>
+    <Copyright></Copyright>
+    <Authors>SpielenmitLili</Authors>
+    <Description>Ein einfacher Updater mit Setupprogramm für Linux Debian über SSH auf Windows</Description>
+    <RepositoryUrl>https://github.com/SpielenmitLili/linux-updater-de</RepositoryUrl>
+    <PackageReleaseNotes>Kann vollständig ausgeführt werden, ohne andere Programme installiert zu haben</PackageReleaseNotes>
+    <PackageLicenseExpression>GNU Public Licence V3</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
