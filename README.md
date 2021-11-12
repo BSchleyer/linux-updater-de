@@ -60,4 +60,6 @@ Um Speicherplatz zu sparen werden nur die Logdateien der letzten zwei Sitzungen 
 # Wichtig
 
 plink.exe im Ordner tools/external/putty wurde nicht von mir selbst geliefert sondern ist von Dritten entwickelt worden. Mehr dazu kannst du auf der offiziellen Seite erfahren. [Hier geht es zu der Seite von Putty](https://www.putty.org/)
-Ein Benutzerhandbuch inkl. zu Putty befindet sich in der Datei PUTTY.CHM im selben Verzeichnis
+Ein Benutzerhandbuch inkl. zu Putty befindet sich in der Datei PUTTY.CHM im selben Verzeichnis.
+
+**Um die Setupfile ausführen zu können muss .NET 5.0 Runtime von Microsoft installiert sein** Diese kann [hier](https://dotnet.microsoft.com/download/dotnet/5.0/runtime?utm_source=getdotnetcore&utm_medium=referral) heruntergeladen werden.**
