@@ -20,16 +20,15 @@ Es gibt zwei Möglichkeiten das Programm für die Anwendung einzurichten.
 
 ## Automatische Einrichtung
 
-Führe die Datei **setup-stat.bat** im Hauptverzeichnis aus. Diese führt automatisch das Einrichtungsprogramm aus.
-Anschließend wird eine Startdatei mit den angegebenen Eigenschaften im Ordner **updater** abgelegt.
+Führe die Datei **setup-startestt.bat** im Hauptverzeichnis aus. Diese führt automatisch das Einrichtungsprogramm aus.
+Anschließend wird eine Startdatei mit den angegebenen Eigenschaften im **selben Ordner** abgelegt.
 
 Wenn du mehrere Server mit diesem Script updaten möchtest dann führe **setup.bat** mehrmals aus.
 
 ## Manuelle Einrichtung
 
 Du kannst das Programm natürlich auch manuell einrichten.
-Wenn du dich dafür entscheidest kannst du den Ordner **setup** ***ignorieren***.
-Wenn du in den Ordner **updater** gehst findest du dort die Datei **config_example.bat**.
+Im **Hauptverzeichnis** findest du die Datei **config_example.bat**.
 
 1. Kopiere diese Datei in den **selben Ordner** und benenne sie so wie du möchtest
 2. **Öffne** die Datei mit einem Editor deine Wahl (beliebt sind Notepad++, Editor oder Visual Studio Code)
