@@ -17,18 +17,13 @@ Ursprünglich musste man eine Vollinstallation von Putty auf seinem Rechner geha
 # Einrichtung
 
 Es gibt zwei Möglichkeiten das Programm für die Anwendung einzurichten.
-Sobald du von Github den Ordner mit dem vollständigen Programm heruntergeladen und entpackt hast, befinden sich dort drei Ordner:
-
-- setup
-- updater
-- tools
 
 ## Automatische Einrichtung
 
-Um die Startdatei automatisch generieren zu lassen benötigst du den Ordner **setup**. Darin musst du die **updater.exe ausführen** und anschließend die Aufforderungen in der Konsole ausführen.
-Sobald du alle benötigten Informationen eingegeben hast wird automatisch eine Datei generiert und in den Ordner **updater** abgelegt mit der du die Updates starten kannst.
+Führe die Datei **setup-stat.bat** im Hauptverzeichnis aus. Diese führt automatisch das Einrichtungsprogramm aus.
+Anschließend wird eine Startdatei mit den angegebenen Eigenschaften im Ordner **updater** abgelegt.
 
-Wenn du mehrere Server mit diesem Script updaten möchtest dann führe **setup.exe** mehrmals aus.
+Wenn du mehrere Server mit diesem Script updaten möchtest dann führe **setup.bat** mehrmals aus.
 
 ## Manuelle Einrichtung
 
@@ -60,4 +55,4 @@ Um Speicherplatz zu sparen werden nur die Logdateien der letzten zwei Sitzungen 
 # Wichtig
 
 plink.exe im Ordner tools/external/putty wurde nicht von mir selbst geliefert sondern ist von Dritten entwickelt worden. Mehr dazu kannst du auf der offiziellen Seite erfahren. [Hier geht es zu der Seite von Putty](https://www.putty.org/)
-Ein Benutzerhandbuch inkl. zu Putty befindet sich in der Datei PUTTY.CHM im selben Verzeichnis
+Ein Benutzerhandbuch inkl. zu Putty befindet sich in der Datei PUTTY.CHM im selben Verzeichnis.
