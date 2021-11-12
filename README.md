@@ -12,16 +12,16 @@ Alles andere übernimmt dieses Programm für dich
 
 # Bevor du startest
 
-Um dieses Programm ausführen zu können benötigst du eine **vollständige** als **Administrator** ausgeführte Installation vom SSH-Client **Putty**
-[Du kannst es hier herunterladen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+Ursprünglich musste man eine Vollinstallation von Putty auf seinem Rechner gehabt haben um das Programm ausführen zu können. Nun wird die benötigte Datei im Paket mitgeliefert, sodass man das direkt verwenden kann und nichts weiter beachten muss.
 
 # Einrichtung
 
 Es gibt zwei Möglichkeiten das Programm für die Anwendung einzurichten.
-Sobald du von Github den Ordner mit dem vollständigen Programm heruntergeladen und entpackt hast, befinden sich dort zwei Ordner:
+Sobald du von Github den Ordner mit dem vollständigen Programm heruntergeladen und entpackt hast, befinden sich dort drei Ordner:
 
 - setup
 - updater
+- tools
 
 ## Automatische Einrichtung
 
@@ -61,5 +61,4 @@ Um Speicherplatz zu sparen werden nur die Logdateien der letzten zwei Sitzungen 
 
 # Wichtig
 
-**Du musst bereits eine Verbindung mit dem Server über Putty hergestellt haben um diesen Programm nutzen zu können!**
-Ansonsten hat das Programm Probleme damit den Authentifizierungsschlüssel des Servers zu akzeptieren. Eine automatische Annahme des Schlüssels wurde unter anderem aus Sicherheitsgründen nicht eingebaut damit du als Nutzer sicherstellen kannst, dass du dich mit deinem Server verbindest und nicht mit einem fremden
+plink.exe im Ordner tools/external/plink wurde nicht von mir selbst geliefert sondern ist von Dritten entwickelt worden. Mehr dazu kannst du auf der offiziellen Seite erfahren. [Hier geht es zu der Seite von Putty](https://www.putty.org/)
