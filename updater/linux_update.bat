@@ -7,7 +7,7 @@ rem Putty-Verzeichnis wird aufgerufen
 cd ..
 cd tools
 cd external
-cd plink
+cd putty
 
 echo y | plink -ssh %user%@%ip% -P %port% "exit"
 
