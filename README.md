@@ -26,11 +26,9 @@ Sobald du von Github den Ordner mit dem vollständigen Programm heruntergeladen 
 ## Automatische Einrichtung
 
 Um die Startdatei automatisch generieren zu lassen benötigst du den Ordner **setup**. Darin musst du die **updater.exe ausführen** und anschließend die Aufforderungen in der Konsole ausführen.
-Sobald du alle benötigten Informationen eingegeben hast wird automatisch eine Datei generiert und in den Ordner **setup** abgelegt mit der du die Updates starten kannst.
+Sobald du alle benötigten Informationen eingegeben hast wird automatisch eine Datei generiert und in den Ordner **updater** abgelegt mit der du die Updates starten kannst.
 
-**Diese Datei musst du in den Verzeichnis *updater* verschieben damit das Programm einwandfrei funktioniert!**
-
-Wenn du mehrere Server mit diesem Script updaten möchtest dann führe **updater.exe** mehrmals aus.
+Wenn du mehrere Server mit diesem Script updaten möchtest dann führe **setup.exe** mehrmals aus.
 
 ## Manuelle Einrichtung
 
